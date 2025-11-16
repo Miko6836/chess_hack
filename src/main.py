@@ -51,7 +51,7 @@ _DEFAULT_WEIGHTS = _resolve_default_weights  # function, not a path string
 
 
 # Optional temperature for sampling (0 → argmax).
-_TEMPERATURE = float(os.environ.get("AI_TEMPERATURE", "0.0"))
+_TEMPERATURE = float(os.environ.get("AI_TEMPERATURE", "0.1"))
 
 # ============================================================
 #                     Move Vocabulary (UCI)
